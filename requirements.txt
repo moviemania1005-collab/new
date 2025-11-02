@@ -1,0 +1,20 @@
+# Core Data Libraries
+pandas==2.2.3
+numpy==1.26.4
+scikit-learn==1.5.2
+joblib==1.4.2
+
+# Visualization and UI
+matplotlib==3.9.2
+seaborn==0.13.2
+plotly==5.24.1
+streamlit==1.39.0
+
+# Utility & Requests
+requests==2.32.3
+openpyxl==3.1.5
+xlsxwriter==3.2.0
+
+# Explainability (Optional but Recommended)
+shap==0.46.0
+scipy==1.14.1
