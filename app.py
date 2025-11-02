@@ -490,4 +490,12 @@ def main():
             print("To compute SHAP summary: python app.py --explain")
 
 if __name__ == "__main__":
-    main()
+    # On local run you can still call CLI arguments (training etc.)
+    # But on Streamlit Cloud, we always start the UI.
+    try:
+        import streamlit as st
+        st.runtime.exists  # just to confirm it's in Streamlit
+        run_streamlit_app()
+    except Exception as e:
+        print("Streamlit runtime not detected or failed:", e)
+        main()
