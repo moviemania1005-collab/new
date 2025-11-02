@@ -1,0 +1,13 @@
+pandas>=1.4
+numpy>=1.23
+scikit-learn>=1.2
+matplotlib>=3.5
+seaborn>=0.12
+plotly>=5.15
+joblib>=1.2
+requests>=2.31
+streamlit>=1.24
+openpyxl>=3.0
+shap>=0.42.1
+xlsxwriter>=3.0
+python-dotenv>=1.0
